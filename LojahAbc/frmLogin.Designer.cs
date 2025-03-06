@@ -50,7 +50,7 @@ namespace LojahAbc
             this.pctLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pctLogo.Name = "pctLogo";
             this.pctLogo.Size = new System.Drawing.Size(260, 234);
-            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
             // 

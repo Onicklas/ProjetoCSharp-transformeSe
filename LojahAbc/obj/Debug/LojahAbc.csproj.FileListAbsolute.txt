@@ -9,3 +9,5 @@ C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\
 C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.pdb
 C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.frmSplash.resources
 C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.frmLogin.resources
+C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.frmMenuPrincipal.resources
+C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.frmfuncionarios.resources
