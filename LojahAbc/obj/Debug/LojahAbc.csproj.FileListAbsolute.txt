@@ -11,3 +11,4 @@ C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\
 C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.frmLogin.resources
 C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.frmMenuPrincipal.resources
 C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.frmfuncionarios.resources
+C:\Users\nicolas.lsilva5\Documents\Visual Studio 2019\TRANSformeSe\LojahAbc\obj\Debug\LojahAbc.frmPesquisarFuncionarios.resources

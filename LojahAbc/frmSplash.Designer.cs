@@ -30,48 +30,12 @@ namespace LojahAbc
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
-            this.pctLogo2 = new System.Windows.Forms.PictureBox();
-            this.pctLogo3 = new System.Windows.Forms.PictureBox();
             this.lblnumero = new System.Windows.Forms.Label();
             this.lblporcentagem = new System.Windows.Forms.Label();
             this.pgbspplash = new System.Windows.Forms.ProgressBar();
-            this.pctlogo1 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pctLogo2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctLogo3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctlogo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pctLogo2
-            // 
-            this.pctLogo2.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo2.Image")));
-            this.pctLogo2.Location = new System.Drawing.Point(563, 42);
-            this.pctLogo2.Name = "pctLogo2";
-            this.pctLogo2.Size = new System.Drawing.Size(307, 235);
-            this.pctLogo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pctLogo2.TabIndex = 7;
-            this.pctLogo2.TabStop = false;
-            this.pctLogo2.Click += new System.EventHandler(this.pictureBox8_Click);
-            // 
-            // pctLogo3
-            // 
-            this.pctLogo3.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo3.Image")));
-            this.pctLogo3.Location = new System.Drawing.Point(-42, 42);
-            this.pctLogo3.Name = "pctLogo3";
-            this.pctLogo3.Size = new System.Drawing.Size(307, 235);
-            this.pctLogo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pctLogo3.TabIndex = 8;
-            this.pctLogo3.TabStop = false;
-            this.pctLogo3.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // lblnumero
             // 
@@ -106,84 +70,26 @@ namespace LojahAbc
             this.pgbspplash.Value = 70;
             this.pgbspplash.Click += new System.EventHandler(this.progressBar1_Click);
             // 
-            // pctlogo1
-            // 
-            this.pctlogo1.Image = ((System.Drawing.Image)(resources.GetObject("pctlogo1.Image")));
-            this.pctlogo1.Location = new System.Drawing.Point(260, 42);
-            this.pctlogo1.Name = "pctlogo1";
-            this.pctlogo1.Size = new System.Drawing.Size(307, 235);
-            this.pctlogo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pctlogo1.TabIndex = 0;
-            this.pctlogo1.TabStop = false;
-            this.pctlogo1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(95, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(124, -11);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(612, 564);
+            this.pictureBox1.Size = new System.Drawing.Size(576, 576);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-53, 280);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(307, 235);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(563, 283);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(307, 235);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 14;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(602, 524);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(307, 235);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 15;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(-135, 507);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(307, 235);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 16;
-            this.pictureBox5.TabStop = false;
             // 
             // frmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.ClientSize = new System.Drawing.Size(780, 557);
             this.Controls.Add(this.pgbspplash);
             this.Controls.Add(this.lblporcentagem);
             this.Controls.Add(this.lblnumero);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pctlogo1);
-            this.Controls.Add(this.pctLogo2);
-            this.Controls.Add(this.pctLogo3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -191,30 +97,16 @@ namespace LojahAbc
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojahAbc -Splash";
             this.Load += new System.EventHandler(this.frmSplash_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pctLogo2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctLogo3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctlogo1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pctLogo2;
-        private System.Windows.Forms.PictureBox pctLogo3;
         private System.Windows.Forms.Label lblnumero;
         private System.Windows.Forms.Label lblporcentagem;
         private System.Windows.Forms.ProgressBar pgbspplash;
-        private System.Windows.Forms.PictureBox pctlogo1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

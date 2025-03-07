@@ -30,7 +30,6 @@ namespace LojahAbc
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
-            this.pctLogo = new System.Windows.Forms.PictureBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -38,21 +37,10 @@ namespace LojahAbc
             this.btnEntrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.pctGatinho = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).BeginInit();
+            this.pctgif = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pctGatinho)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctgif)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pctLogo
-            // 
-            this.pctLogo.BackColor = System.Drawing.Color.Transparent;
-            this.pctLogo.Image = ((System.Drawing.Image)(resources.GetObject("pctLogo.Image")));
-            this.pctLogo.Location = new System.Drawing.Point(13, 137);
-            this.pctLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pctLogo.Name = "pctLogo";
-            this.pctLogo.Size = new System.Drawing.Size(260, 234);
-            this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctLogo.TabIndex = 0;
-            this.pctLogo.TabStop = false;
             // 
             // lblUsuario
             // 
@@ -64,7 +52,6 @@ namespace LojahAbc
             this.lblUsuario.Size = new System.Drawing.Size(58, 16);
             this.lblUsuario.TabIndex = 1;
             this.lblUsuario.Text = "Usuário:";
-            this.lblUsuario.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblSenha
             // 
@@ -77,7 +64,6 @@ namespace LojahAbc
             this.lblSenha.Size = new System.Drawing.Size(50, 16);
             this.lblSenha.TabIndex = 2;
             this.lblSenha.Text = "Senha:";
-            this.lblSenha.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtUsuario
             // 
@@ -116,7 +102,7 @@ namespace LojahAbc
             this.btnEntrar.TabIndex = 2;
             this.btnEntrar.Text = "&Entrar";
             this.btnEntrar.UseVisualStyleBackColor = false;
-            this.btnEntrar.Click += new System.EventHandler(this.button1_Click);
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnSair
             // 
@@ -139,20 +125,29 @@ namespace LojahAbc
             this.pctGatinho.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctGatinho.TabIndex = 4;
             this.pctGatinho.TabStop = false;
-            this.pctGatinho.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pctgif
+            // 
+            this.pctgif.Image = ((System.Drawing.Image)(resources.GetObject("pctgif.Image")));
+            this.pctgif.Location = new System.Drawing.Point(43, 137);
+            this.pctgif.Name = "pctgif";
+            this.pctgif.Size = new System.Drawing.Size(228, 234);
+            this.pctgif.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctgif.TabIndex = 18;
+            this.pctgif.TabStop = false;
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 557);
+            this.Controls.Add(this.pctgif);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.pctLogo);
             this.Controls.Add(this.pctGatinho);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -163,16 +158,14 @@ namespace LojahAbc
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LojahAbc - Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pctLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctGatinho)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctgif)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pctLogo;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.TextBox txtUsuario;
@@ -180,5 +173,6 @@ namespace LojahAbc
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.PictureBox pctGatinho;
+        private System.Windows.Forms.PictureBox pctgif;
     }
 }
