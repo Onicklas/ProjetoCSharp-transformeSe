@@ -36,29 +36,23 @@ namespace LojahAbc
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click_2(object sender, EventArgs e)
+        private void btn_voltar_Click(object sender, EventArgs e)
         {
-
+            frmLogin abrir = new frmLogin();
+            abrir.Show();
+            this.Hide();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btn_funcionarios_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
+            frmfuncionarios funfun = new frmfuncionarios();
+            funfun.Show();
+            this.Hide();
         }
     }
 }

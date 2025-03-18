@@ -99,7 +99,16 @@ namespace LojahAbc
 
         private void button5_Click(object sender, EventArgs e)
         {
+            frmPesquisarFuncionarios pesquisa = new frmPesquisarFuncionarios();
+            pesquisa.ShowDialog();
 
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmMenuPrincipal prinprin = new frmMenuPrincipal();
+            prinprin.Show();
+            this.Hide();
         }
     }
 }

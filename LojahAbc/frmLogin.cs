@@ -17,14 +17,53 @@ namespace LojahAbc
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void btnEntrar_Click(object sender, EventArgs e)
         {
+            //declarando as variaveis do tipo string
+            
+            string usuario, senha;
+            usuario = txtUsuario.Text;
+            senha = txtSenha.Text;
+            if (usuario.Equals("a")&&senha.Equals("a"))
+            {
+                frmMenuPrincipal abrir = new frmMenuPrincipal();
+                abrir.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuário ou senha inválidos" , 
+                    "Mensagem do sistema", 
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+                //chamando o método limparcampos()
+                LimparCampos();
+            }
 
         }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        //limpando campos
+        public void LimparCampos()
         {
+            txtUsuario.Clear();
+            txtSenha.Clear();
+            txtUsuario.Focus();
+        }
 
+        private void txtUsuario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtSenha.Focus();
+            }
+        }
+
+        private void txtSenha_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnEntrar.Focus();
+            }
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
@@ -32,16 +71,9 @@ namespace LojahAbc
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void btnEntrar_Click(object sender, EventArgs e)
-        {
-            frmMenuPrincipal abrir = new frmMenuPrincipal();
-            abrir.Show();
-            this.Hide();
         }
     }
 }

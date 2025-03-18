@@ -31,6 +31,7 @@ namespace LojahAbc
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmfuncionarios));
             this.gpbDadosPessoais = new System.Windows.Forms.GroupBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.mskCelular = new System.Windows.Forms.MaskedTextBox();
             this.lblCelular = new System.Windows.Forms.Label();
             this.gpbGenero = new System.Windows.Forms.GroupBox();
@@ -56,6 +57,7 @@ namespace LojahAbc
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.bntNovo = new System.Windows.Forms.Button();
             this.gpbEndereco = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblUF = new System.Windows.Forms.Label();
             this.cbbUF = new System.Windows.Forms.ComboBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
@@ -70,14 +72,12 @@ namespace LojahAbc
             this.lblCEP = new System.Windows.Forms.Label();
             this.txtLogradouro = new System.Windows.Forms.TextBox();
             this.lblLogradouro = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.gpbDadosPessoais.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.gpbGenero.SuspendLayout();
             this.pnlbotao.SuspendLayout();
             this.gpbEndereco.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // gpbDadosPessoais
@@ -105,6 +105,16 @@ namespace LojahAbc
             this.gpbDadosPessoais.TabStop = false;
             this.gpbDadosPessoais.Text = "Dados Pessoais";
             this.gpbDadosPessoais.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(628, 129);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(121, 129);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 28;
+            this.pictureBox3.TabStop = false;
             // 
             // mskCelular
             // 
@@ -288,6 +298,7 @@ namespace LojahAbc
             this.btnVoltar.TabIndex = 26;
             this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnPesquisar
             // 
@@ -389,6 +400,16 @@ namespace LojahAbc
             this.gpbEndereco.TabStop = false;
             this.gpbEndereco.Text = "Endereço";
             this.gpbEndereco.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(625, 100);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(121, 129);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
             // 
             // lblUF
             // 
@@ -539,26 +560,6 @@ namespace LojahAbc
             this.lblLogradouro.TabIndex = 2;
             this.lblLogradouro.Text = "Logradouro:";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(625, 100);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(121, 129);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(628, 129);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(121, 129);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 28;
-            this.pictureBox3.TabStop = false;
-            // 
             // frmfuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -577,13 +578,13 @@ namespace LojahAbc
             this.Load += new System.EventHandler(this.frmfuncionarios_Load);
             this.gpbDadosPessoais.ResumeLayout(false);
             this.gpbDadosPessoais.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.gpbGenero.ResumeLayout(false);
             this.gpbGenero.PerformLayout();
             this.pnlbotao.ResumeLayout(false);
             this.gpbEndereco.ResumeLayout(false);
             this.gpbEndereco.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
