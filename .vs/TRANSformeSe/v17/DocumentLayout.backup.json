@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\",
+  "WorkspaceRootPath": "C:\\Users\\nicolas.lsilva5\\Documents\\ProjetoCSharp-transformeSe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\visual studio 2019\\transformese\\lojahabc\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\visual studio 2019\\transformese\\lojahabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\visual studio 2019\\transformese\\lojahabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\projetocsharp-transformese\\lojahabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\visual studio 2019\\transformese\\lojahabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\projetocsharp-transformese\\lojahabc\\frmsobre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\frmsobre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\visual studio 2019\\transformese\\lojahabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\visual studio 2019\\transformese\\lojahabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\visual studio 2019\\transformese\\lojahabc\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|c:\\users\\nicolas.lsilva5\\documents\\projetocsharp-transformese\\lojahabc\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB097583-2584-444A-8AE3-4B90E046DD6C}|LojahAbc\\LojahAbc.csproj|solutionrelative:lojahabc\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmfuncionarios.cs",
-              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmfuncionarios.cs",
-              "RelativeDocumentMoniker": "LojahAbc\\frmfuncionarios.cs",
-              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmfuncionarios.cs",
-              "RelativeToolTip": "LojahAbc\\frmfuncionarios.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAIA1wGcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T20:12:49.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmfuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmfuncionarios.cs",
-              "RelativeDocumentMoniker": "LojahAbc\\frmfuncionarios.cs",
-              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmfuncionarios.cs [Design]",
-              "RelativeToolTip": "LojahAbc\\frmfuncionarios.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T20:12:46.911Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmMenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmMenuPrincipal.cs",
-              "RelativeDocumentMoniker": "LojahAbc\\frmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmMenuPrincipal.cs",
-              "RelativeToolTip": "LojahAbc\\frmMenuPrincipal.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAIA5wDYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:40:56.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmMenuPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmMenuPrincipal.cs",
-              "RelativeDocumentMoniker": "LojahAbc\\frmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmMenuPrincipal.cs [Design]",
-              "RelativeToolTip": "LojahAbc\\frmMenuPrincipal.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\ProjetoCSharp-transformeSe\\LojahAbc\\Program.cs",
+              "RelativeDocumentMoniker": "LojahAbc\\Program.cs",
+              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\ProjetoCSharp-transformeSe\\LojahAbc\\Program.cs",
+              "RelativeToolTip": "LojahAbc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:12:40.853Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-20T17:03:12.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmLogin.cs",
-              "RelativeDocumentMoniker": "LojahAbc\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmLogin.cs",
-              "RelativeToolTip": "LojahAbc\\frmLogin.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAIA5wEsAAAAfAAAAAAAAAA==",
+              "Title": "frmSobre.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\ProjetoCSharp-transformeSe\\LojahAbc\\frmSobre.cs",
+              "RelativeDocumentMoniker": "LojahAbc\\frmSobre.cs",
+              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\ProjetoCSharp-transformeSe\\LojahAbc\\frmSobre.cs",
+              "RelativeToolTip": "LojahAbc\\frmSobre.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvw8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T16:54:02.341Z",
+              "WhenOpened": "2025-03-20T16:56:45.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\Program.cs",
-              "RelativeDocumentMoniker": "LojahAbc\\Program.cs",
-              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\Program.cs",
-              "RelativeToolTip": "LojahAbc\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Title": "frmPesquisarFuncionarios.cs",
+              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\ProjetoCSharp-transformeSe\\LojahAbc\\frmPesquisarFuncionarios.cs",
+              "RelativeDocumentMoniker": "LojahAbc\\frmPesquisarFuncionarios.cs",
+              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\ProjetoCSharp-transformeSe\\LojahAbc\\frmPesquisarFuncionarios.cs",
+              "RelativeToolTip": "LojahAbc\\frmPesquisarFuncionarios.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T16:49:23.201Z",
+              "WhenOpened": "2025-03-20T16:56:32.204Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmLogin.cs",
-              "RelativeDocumentMoniker": "LojahAbc\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\nicolas.lsilva5\\Documents\\Visual Studio 2019\\TRANSformeSe\\LojahAbc\\frmLogin.cs [Design]",
-              "RelativeToolTip": "LojahAbc\\frmLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T16:49:20.297Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
